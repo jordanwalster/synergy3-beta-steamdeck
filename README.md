@@ -24,3 +24,4 @@ Symless have launched their beta version of Synergy 3 available on several diffe
    - `sudo pacman -U synergy-3-beta.pkg.tar.zst`
 8. Launch Synergy 3.
 
+### !! Remember to go back and restore the readonly filesystem settings.
