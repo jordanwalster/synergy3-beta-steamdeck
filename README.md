@@ -34,3 +34,4 @@ You can uninstall Synergy by running: `sudo pacman -R synergy`
 
 ## Troubleshooting
 You may find that when you initially boot up Synergy, that it fails to load the backend service. Give it a moment and it should eventually pass.
+![Synergy 3 Error 1](https://m.jrdn.dev/RG_feGuu)
