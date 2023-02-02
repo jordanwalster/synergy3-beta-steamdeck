@@ -33,5 +33,9 @@ Symless have launched their beta version of Synergy 3 available on several diffe
 You can uninstall Synergy by running: `sudo pacman -R synergy`
 
 ## Troubleshooting
-You may find that when you initially boot up Synergy, that it fails to load the backend service. Give it a moment and it should eventually pass.
+You may find that when you initially boot up Synergy, that it fails to load the background service. If this happens it should only show for a few seconds and then you should see a green tick appear, with the option to continue into the application.
+
 ![Synergy 3 Error 1](https://m.jrdn.dev/RG_feGuu)
+
+If you see an error similar to the one below, this can be safely ignored. Synergy will run without issues after clicking 'Dismiss'.
+![Synergy 3 Error 2](https://m.jrdn.dev/dkBg5Zu8)
