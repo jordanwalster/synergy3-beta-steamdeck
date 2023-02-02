@@ -6,28 +6,35 @@ Symless have launched their beta version of Synergy 3 available on several diffe
 <div style="text-align:center"><img src="https://m.jrdn.dev/LuHu3t1K" /></div>
 
 ## Prerequisites
+- You have beta access to Synergy 3. 
 - SteamOS readonly mode is turned off using `sudo steamos-readonly disable`
-- You have up-to-date pacman keys, as well as the archlinux keys. You can run:
-  - `sudo pacman -Sy archlinux-keyring`
-  - `sudo pacman-key --init`
-  - `sudo pacman-key --refresh-keys`
+- If you have not set a sudo password, you should set one now.
+- You have up-to-date pacman keys, as well as the archlinux keys. To do this, run the following commands:
+   ```
+   # sudo pacman -Sy archlinux-keyring
+   # sudo pacman-key --init
+   # sudo pacman-key --refresh-keys
+   ```
 
-## Steps to install on Steam Deck:
+## Installing on Steam Deck
 1. Boot into Desktop Mode on Steam Deck
 2. Download the synergy 3 zip from the [releases](https://github.com/jordanwalster/synergy3-beta-steamdeck/releases) in this repo.
 3. Extract the zip to a folder of your choice.
-4. Go to the `/usr/lib` folder.
-5. Check that there are no files that may be overwritten by the contents of the zip.
-   - `ls /usr/lib | grep libssl`
-   - `ls /usr/lib | grep libcrypto`
-6. If none of the file names match, Copy the `.so` files to `/usr/lib`
-   - `sudo cp *.3 /usr/lib`
-7. Install the synergy 3 package
-   - `sudo pacman -U synergy-3-beta.pkg.tar.zst`
-   - Import the required PGP keys.
-8. Launch Synergy 3.
-9. Set steamos readonly filesystem to enabled
-   - `sudo steamos-readonly enable`
+4. Open the zip in your terminal. 
+5. Copy the `.so.3` files to `/usr/lib`:
+   ```
+   sudo cp *.3 /usr/lib
+   ```
+6. Install Synergy
+   ```
+   sudo pacman -U synergy-3-beta.pkg.tar.zst
+   ```
+   Import any requested PGP keys.
+7. Launch Synergy 3.
+8. Set steamos readonly filesystem to enabled
+   ```
+   sudo steamos-readonly enable
+   ```
 
 ## Removing Synergy
 You can uninstall Synergy by running: `sudo pacman -R synergy`
