@@ -3,7 +3,7 @@ Run Synergy 3 Beta on Steam Deck
 
 Symless have launched their beta version of Synergy 3 available on several different distros, with a missing one being Arch Linux.
 
-![Synergy 3 on Steam Deck](https://m.jrdn.dev/LuHu3t1K "Synergy 3 on Steam Deck")
+<div style="text-align:center"><img src="https://m.jrdn.dev/LuHu3t1K" /></div>
 
 ## Prerequisites
 - SteamOS readonly mode is turned off using `sudo steamos-readonly disable`
@@ -35,8 +35,8 @@ You can uninstall Synergy by running: `sudo pacman -R synergy`
 ## Troubleshooting
 You may find that when you initially boot up Synergy, that it fails to load the background service. If this happens it should only show for a few seconds and then you should see a green tick appear, with the option to continue into the application.
 
-![Synergy 3 Error 1](https://m.jrdn.dev/RG_feGuu)
+<div style="text-align:center"><img src="https://m.jrdn.dev/RG_feGuu" /></div>
 
 If you see an error similar to the one below, this can be safely ignored. Synergy will run without issues after clicking 'Dismiss'.
 
-![Synergy 3 Error 2](https://m.jrdn.dev/dkBg5Zu8)
+<div style="text-align:center"><img src="https://m.jrdn.dev/dkBg5Zu8" /></div>
