@@ -38,4 +38,5 @@ You may find that when you initially boot up Synergy, that it fails to load the 
 ![Synergy 3 Error 1](https://m.jrdn.dev/RG_feGuu)
 
 If you see an error similar to the one below, this can be safely ignored. Synergy will run without issues after clicking 'Dismiss'.
+
 ![Synergy 3 Error 2](https://m.jrdn.dev/dkBg5Zu8)
