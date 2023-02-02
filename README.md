@@ -29,5 +29,8 @@ Symless have launched their beta version of Synergy 3 available on several diffe
 9. Set steamos readonly filesystem to enabled
    - `sudo steamos-readonly enable`
 
+## Removing Synergy
+You can uninstall Synergy by running: `sudo pacman -R synergy`
+
 ## Troubleshooting
 You may find that when you initially boot up Synergy, that it fails to load the backend service. Give it a moment and it should eventually pass.
